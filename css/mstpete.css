@@ -35,14 +35,15 @@ background-color: #003399;}
 float:right;}
 #logo {
 }
-#palm {
-	position:absolute;
-	width:95%;
-	height:111px;
+.ui-content{
+	/* position:absolute; */
+	/* width:95%; */
+	/* height:111px; */
 	background-image:url(../images/palm_op20.png);
 	background-repeat:no-repeat;
 	background-position:right;
-}
+	background-position:100% 0px;
+	}
 #content {
 padding: 0px 15px 0px 15px;
 }
