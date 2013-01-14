@@ -1,4 +1,3 @@
-<div id="container">
 <?php
 $articleUrl = $_GET['articleUrl'];
 
@@ -20,4 +19,3 @@ if(substr($articleUrl,0,22) == 'http://www.stpete.org/'){
     echo $extract;
 }
 ?>
-</div>
